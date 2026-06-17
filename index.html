@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TINTON · Luxury Watches</title>
+    
+    <link rel="shortcut icon" href="assets/img/relogio-rolex.png" type="image/x-icon" />
+    
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <div class="preloader" id="preloader">
+        <div class="preloader-ring"></div>
+        <span class="preloader-text">TINTON</span>
+    </div>
+
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <span class="logo-icon">✦</span>
+                TINTON
+                <span class="logo-dot">.</span>
+            </a>
+            
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Início</a></li>
+                <li><a href="#products" class="nav-link">Produtos</a></li>
+                <li><a href="#collection" class="nav-link">Coleções</a></li>
+                <li><a href="#testimonials" class="nav-link">Depoimentos</a></li>
+                <li><a href="#contact" class="nav-link">Contato</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <button class="nav-btn" aria-label="Buscar" id="searchBtn">
+                    <i class="fas fa-search"></i>
+                </button>
+                <button class="nav-btn cart-btn" aria-label="Carrinho" id="cartBtn">
+                    <i class="fas fa-shopping-bag"></i>
+                    <span class="cart-badge" id="cartCount">0</span>
+                </button>
+                <button class="hamburger" id="hamburger" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="hero-background">
+            <video autoplay muted loop playsinline class="hero-video">
+                <source src="assets/videos/Luxury_wristwatc.mp4" type="video/mp4" />
+                <source src="https://assets.mixkit.co/videos/preview/mixkit-watch-from-above-32816-large.mp4" type="video/mp4" />
+                <source src="https://cdn.pixabay.com/video/2023/12/07/193528-890159344_large.mp4" type="video/mp4" />
+            </video>
+            <div class="hero-gradient"></div>
+            <div class="hero-particles" id="particles"></div>
+        </div>
+        
+        <div class="container hero-container">
+            <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
+                <span class="hero-badge">
+                    <i class="fas fa-star"></i>
+                    Edição Limitada 2026
+                </span>
+                <h1 class="hero-title">
+                    O Tempo<br />
+                    <span class="hero-highlight">é seu maior</span>
+                    <span class="hero-highlight gold">luxo</span>
+                </h1>
+                <p class="hero-desc">
+                    Descubra a excelência em relojoaria com as peças mais 
+                    sofisticadas e exclusivas da TINTON.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#products" class="btn btn-primary">
+                        <span>Explorar Coleção</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#" class="btn btn-secondary">
+                        <i class="fas fa-play-circle"></i>
+                        Ver Vídeo
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="35">0</span>
+                        <span class="stat-label">Anos de História</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="50">0</span>
+                        <span class="stat-label">Mil Clientes</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="15">0</span>
+                        <span class="stat-label">Prêmios</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-visual" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+                <div class="hero-watch">
+                    <img src="assets/img/relogio-rolex.png" alt="Relógio de Luxo" />
+                    <div class="watch-glow"></div>
+                </div>
+                <div class="floating-card card-1">
+                    <i class="fas fa-shield-alt"></i>
+                    <span>Garantia Vitalícia</span>
+                </div>
+                <div class="floating-card card-2">
+                    <i class="fas fa-truck"></i>
+                    <span>Frete Grátis</span>
+                </div>
+                <div class="floating-card card-3">
+                    <i class="fas fa-gem"></i>
+                    <span>Peças Autênticas</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="hero-scroll">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <section class="marquee-section">
+        <div class="marquee-wrapper">
+            <div class="marquee-track">
+                <span>✦ Relógios de Luxo</span>
+                <span>✦ Precisão Suíça</span>
+                <span>✦ Design Italiano</span>
+                <span>✦ Edição Limitada</span>
+                <span>✦ Alta Relojoaria</span>
+                <span>✦ Atemporal</span>
+                <span>✦ Exclusividade</span>
+                <span>✦ Tradição</span>
+                <span>✦ Inovação</span>
+                <span>✦ Elegância</span>
+            </div>
+            <div class="marquee-track" aria-hidden="true">
+                <span>✦ Relógios de Luxo</span>
+                <span>✦ Precisão Suíça</span>
+                <span>✦ Design Italiano</span>
+                <span>✦ Edição Limitada</span>
+                <span>✦ Alta Relojoaria</span>
+                <span>✦ Atemporal</span>
+                <span>✦ Exclusividade</span>
+                <span>✦ Tradição</span>
+                <span>✦ Inovação</span>
+                <span>✦ Elegância</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="products" id="products">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Produtos</span>
+                <h2 class="section-title">Mais <span class="gold">Vendidos</span></h2>
+                <p class="section-desc">Os modelos mais cobiçados da nossa coleção premium</p>
+            </div>
+            
+            <div class="products-grid">
+                <div class="product-card" data-aos="fade-up" data-aos-delay="0">
+                    <div class="product-image">
+                        <img src="assets/img/produto1.jpg" alt="Luxury Edition" />
+                        <div class="product-actions">
+                            <button class="product-btn"><i class="fas fa-heart"></i></button>
+                            <button class="product-btn"><i class="fas fa-eye"></i></button>
+                        </div>
+                        <span class="product-badge">Novo</span>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(4.5)</span>
+                        </div>
+                        <h3 class="product-name">Luxury Edition</h3>
+                        <p class="product-desc">Acabamento premium em ouro 18k</p>
+                        <div class="product-footer">
+                            <span class="product-price">R$ 2.499</span>
+                            <button class="btn-buy add-to-cart" data-product="Luxury Edition">
+                                <i class="fas fa-shopping-bag"></i>
+                                Comprar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="product-image">
+                        <img src="assets/img/produto2.jpg" alt="Sport Collection" />
+                        <div class="product-actions">
+                            <button class="product-btn"><i class="fas fa-heart"></i></button>
+                            <button class="product-btn"><i class="fas fa-eye"></i></button>
+                        </div>
+                        <span class="product-badge best">Top</span>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(5.0)</span>
+                        </div>
+                        <h3 class="product-name">Sport Collection</h3>
+                        <p class="product-desc">Resistente e elegante para o dia a dia</p>
+                        <div class="product-footer">
+                            <span class="product-price">R$ 1.899</span>
+                            <button class="btn-buy add-to-cart" data-product="Sport Collection">
+                                <i class="fas fa-shopping-bag"></i>
+                                Comprar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="product-image">
+                        <img src="assets/img/produto3.jpg" alt="Classic Series" />
+                        <div class="product-actions">
+                            <button class="product-btn"><i class="fas fa-heart"></i></button>
+                            <button class="product-btn"><i class="fas fa-eye"></i></button>
+                        </div>
+                        <span class="product-badge sale">-20%</span>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(4.9)</span>
+                        </div>
+                        <h3 class="product-name">Classic Series</h3>
+                        <p class="product-desc">Requinte tradicional com movimento automático</p>
+                        <div class="product-footer">
+                            <span class="product-price">
+                                <span class="price-old">R$ 4.299</span>
+                                R$ 3.299
+                            </span>
+                            <button class="btn-buy add-to-cart" data-product="Classic Series">
+                                <i class="fas fa-shopping-bag"></i>
+                                Comprar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="product-image">
+                        <img src="assets/img/card1.jpg" alt="Diamond Edition" />
+                        <div class="product-actions">
+                            <button class="product-btn"><i class="fas fa-heart"></i></button>
+                            <button class="product-btn"><i class="fas fa-eye"></i></button>
+                        </div>
+                        <span class="product-badge">Premium</span>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(5.0)</span>
+                        </div>
+                        <h3 class="product-name">Diamond Edition</h3>
+                        <p class="product-desc">Luxo absoluto com diamantes certificados</p>
+                        <div class="product-footer">
+                            <span class="product-price">R$ 8.999</span>
+                            <button class="btn-buy add-to-cart" data-product="Diamond Edition">
+                                <i class="fas fa-shopping-bag"></i>
+                                Comprar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="banner-cta">
+        <div class="banner-bg">
+            <video autoplay muted loop playsinline>
+                <source src="assets/videos/Skeleton_wristwat.mp4" type="video/mp4" />
+                <source src="https://assets.mixkit.co/videos/preview/mixkit-gold-wristwatch-32815-large.mp4" type="video/mp4" />
+                <source src="https://cdn.pixabay.com/video/2023/11/15/189266-883231569_large.mp4" type="video/mp4" />
+            </video>
+            <div class="banner-overlay"></div>
+        </div>
+        <div class="container banner-container" data-aos="zoom-in">
+            <div class="banner-content">
+                <span class="banner-tag">Coleção 2026</span>
+                <h2>Relógios que <br /><span class="gold">contam histórias</span></h2>
+                <p>Cadastre-se agora e ganhe <strong>10% OFF</strong> na primeira compra</p>
+                <div class="banner-form">
+                    <input type="email" placeholder="Seu melhor e-mail" />
+                    <button class="btn btn-primary">Inscrever-se</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="collections" id="collection">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Coleções</span>
+                <h2 class="section-title">Nossas <span class="gold">Linhas</span></h2>
+                <p class="section-desc">Cada coleção conta uma história única de elegância e precisão</p>
+            </div>
+            
+            <div class="collections-grid">
+                <div class="collection-card" data-aos="flip-up" data-aos-delay="0">
+                    <div class="collection-img" style="background-image: url('assets/img/colecao1.jpg');"></div>
+                    <div class="collection-overlay">
+                        <div class="collection-info">
+                            <span class="collection-number">01</span>
+                            <h3>Edição Limitada</h3>
+                            <p>Peças únicas numeradas</p>
+                            <a href="#" class="collection-link">
+                                Ver coleção
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="collection-card" data-aos="flip-up" data-aos-delay="100">
+                    <div class="collection-img" style="background-image: url('assets/img/colecao2.jpg');"></div>
+                    <div class="collection-overlay">
+                        <div class="collection-info">
+                            <span class="collection-number">02</span>
+                            <h3>Alta Relojoaria</h3>
+                            <p>Precisão absoluta</p>
+                            <a href="#" class="collection-link">
+                                Ver coleção
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="collection-card" data-aos="flip-up" data-aos-delay="200">
+                    <div class="collection-img" style="background-image: url('assets/img/colecao3.jpg');"></div>
+                    <div class="collection-overlay">
+                        <div class="collection-info">
+                            <span class="collection-number">03</span>
+                            <h3>Atemporal</h3>
+                            <p>Clássicos eternos</p>
+                            <a href="#" class="collection-link">
+                                Ver coleção
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="collection-card" data-aos="flip-up" data-aos-delay="300">
+                    <div class="collection-img" style="background-image: url('assets/img/colecao4.jpg');"></div>
+                    <div class="collection-overlay">
+                        <div class="collection-info">
+                            <span class="collection-number">04</span>
+                            <h3>Esportivo</h3>
+                            <p>Performance e estilo</p>
+                            <a href="#" class="collection-link">
+                                Ver coleção
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Depoimentos</span>
+                <h2 class="section-title">O que nossos <span class="gold">clientes</span> dizem</h2>
+            </div>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="0">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "O melhor relógio que já tive. A qualidade é impecável e o atendimento foi excepcional."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <span>RM</span>
+                        </div>
+                        <div class="author-info">
+                            <h4>Rafael Mendes</h4>
+                            <span>CEO, TechCorp</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "A TINTON superou todas as minhas expectativas. Design sofisticado e precisão suíça."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <span>AL</span>
+                        </div>
+                        <div class="author-info">
+                            <h4>Ana Luiza</h4>
+                            <span>Designer de Interiores</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "Um relógio que transmite elegância e status. Recomendo a todos que buscam exclusividade."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <span>CS</span>
+                        </div>
+                        <div class="author-info">
+                            <h4>Carlos Silva</h4>
+                            <span>Investidor</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand" data-aos="fade-right">
+                    <a href="#" class="logo">
+                        <span class="logo-icon">✦</span>
+                        TINTON
+                        <span class="logo-dot">.</span>
+                    </a>
+                    <p>Relógios de alta qualidade com design exclusivo desde 1985. Uma tradição que transcende gerações.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-links" data-aos="fade-up" data-aos-delay="0">
+                    <h4>Navegação</h4>
+                    <ul>
+                        <li><a href="#home">Início</a></li>
+                        <li><a href="#products">Produtos</a></li>
+                        <li><a href="#collection">Coleções</a></li>
+                        <li><a href="#testimonials">Depoimentos</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links" data-aos="fade-up" data-aos-delay="100">
+                    <h4>Suporte</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Entregas</a></li>
+                        <li><a href="#">Trocas</a></li>
+                        <li><a href="#">Garantia</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-contact" data-aos="fade-left">
+                    <h4>Contato</h4>
+                    <ul>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <span>(11) 9999-9999</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <span>contato@tinton.com</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>São Paulo - SP</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-clock"></i>
+                            <span>Seg-Sex: 9h - 18h</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 TINTON. Todos os direitos reservados.</p>
+                <div class="footer-payment">
+                    <i class="fab fa-cc-visa"></i>
+                    <i class="fab fa-cc-mastercard"></i>
+                    <i class="fab fa-cc-amex"></i>
+                    <i class="fab fa-cc-paypal"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <button class="scroll-top" id="scrollTop" aria-label="Voltar ao topo">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <script src="script.js"></script>
+</body>
+</html>
