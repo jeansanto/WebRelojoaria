@@ -37,4 +37,4 @@ A **TINTON** é uma loja de relógios de luxo com design moderno, sofisticado e 
 
 <img width="1361" height="599" alt="Screenshot_9" src="https://github.com/user-attachments/assets/5dc590fe-2a17-4abd-bb97-4de88053cc78" />
 <img width="1170" height="540" alt="Screenshot_11" src="https://github.com/user-attachments/assets/d9bbdf8e-3eb7-4b8f-be64-0edbfd9a103b"/>
-<img width="862" height="537" alt="Screenshot_10" src="https://github.com/user-attachments/assets/01c29698-c8cd-4581-8502-34ce870d6219" />
+<img width="1365" height="602" alt="Screenshot_10" src="https://github.com/user-attachments/assets/76150b68-e55a-4636-98ef-c07182da3eef"/>
